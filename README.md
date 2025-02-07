@@ -42,8 +42,7 @@ Este repositório tem como objetivo explorar os conceitos de Engenharia de Dados
 ### 3️⃣ Modelagem e Arquitetura de Dados
 * Criação de diagramas para documentação;
 * Estruturação de tabelas relacionais.
-  ![image](https://github.com/user-attachments/assets/64d23c0d-5d12-4331-85ec-28612743f5c9)
-
+<img src="https://github.com/user-attachments/assets/4f68da0f-74ec-4e34-b735-b6068766e831" width="300">
   
 ### 4️⃣ ETL e Processamento de Dados
 * Extração, Transformação e Carga de dados usando Python;
