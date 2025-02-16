@@ -19,18 +19,19 @@
    "source": [
     "# Especifique as informaçoes de credenciais\n",
     "credencial = {\n",
-    "  \"type\": \"\",\n",
-    "  \"project_id\": \"-\",\n",
-    "  \"private_key_id\": \"\",\n",
-    "  \"private_key\": \"- PRIVATE KEY-\",\n",
-    "  \"client_email\": \"\",\n",
-    "  \"client_id\": \"\",\n",
-    "  \"auth_uri\": \"https://..com///auth\",\n",
-    "  \"token_uri\": \"https://..com/token\",\n",
-    "  \"auth_provider_x509_cert_url\": \"..///\",\n",
-    "  \"client_x509_cert_url\": \"\",\n",
-    "  \"universe_domain\": \".com\"\n",
+    "    \n",
+    "  \"type\": \"service_account\",\n",
+    "  \"project_id\": \"pythonengenharia\",\n",
+    "  \"private_key_id\": \"e4145aaaeb10a3\",\n",
+    "  \"private_key\": \"-----pythonengenhariaprojeto@pythonengenharia.iam.gserviceaccount.com\",\n",
+    "  \"client_id\": \"10068232482\",\n",
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n",
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n",
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n",
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pythonengenhariaprojeto%40pythonengenharia.iam.gserviceaccount.com\",\n",
+    " \n",
     "}\n",
+    "\n",
     "\n",
     "# Crie o cliente BigQuery\n",
     "client = bigquery.Client(credentials=service_account.Credentials.from_service_account_info(credencial))"
@@ -66,7 +67,7 @@
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "sgbds",
    "language": "python",
    "name": "python3"
   },
@@ -80,7 +81,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.11.4"
+   "version": "3.13.1"
   },
   "orig_nbformat": 4
  },
