@@ -1,10 +1,12 @@
-# Projeto de  Engenharia de Dados com Python
+# Projeto de Engenharia de Dados com Python
 
 ## Sobre o Projeto
 
 Este repositório tem como objetivo explorar os conceitos de Engenharia de Dados, abrangendo desde os princípios básicos até as práticas mais avançadas. O projeto proporciona uma interação prática com uma variedade de bancos de dados, sejam eles relacionais ou não relacionais, utilizando ferramentas amplamente reconhecidas no mercado.
 
- ## 📌 Conteúdo do Projeto
+> **📋 Guia de Início**: Para começar, explore os diretórios organizados por tecnologia e execute os scripts Python disponíveis. Cada seção contém exemplos práticos e documentação específica.
+
+## 📌 Conteúdo do Projeto
 
 * Integração do Python com diversos bancos de dados (relacionais e não relacionais);
 * Acesso a mais de 100 scripts Python para fortalecer seu portfólio;
